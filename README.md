@@ -27,9 +27,6 @@ kde:
 1️⃣ Naklonuj repozitář
 
 ```
-git clone https://github.com/username/circle-intersections.git
-cd circle-intersections
-```
 
 2️⃣ Vytvoř virtuální prostředí
 
@@ -78,4 +75,3 @@ tests/
 
 ## Licence
 
-Educational project.

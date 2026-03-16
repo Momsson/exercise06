@@ -1,7 +1,6 @@
 # tests/test_circle.py
-
-from  import has_intersection, radius_sum
-
+from src.circle import has_intersection, radius_sum
+import pytest
 
 def test_intersection_normal_true():
     assert has_intersection((0,0,5), (4,0,5)) == True
@@ -25,3 +24,5 @@ def test_intersection_wrong_expected():  # záměrně failující
 
 def test_radius_sum():
     assert radius_sum(3, 4) == 7
+
+
