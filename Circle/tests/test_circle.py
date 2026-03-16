@@ -1,4 +1,4 @@
-# tests/test_circle.py
+
 from src.circle import has_intersection, radius_sum
 import pytest
 

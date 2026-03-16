@@ -31,7 +31,7 @@ def analyze_password(
         else:
             missing_rules.append("digit")
 
-    # velké písmeno
+    # velké
     if require_upper:
         active_rules += 1
         if any(c.isupper() for c in password):
@@ -60,11 +60,6 @@ def analyze_password(
     is_strong = passed_rules == active_rules
 
     return is_strong, score_percent, missing_rules
-
-
-# ======================
-# INPUT OD UŽIVATELE
-# ======================
 
 password = input("Zadej heslo: ")
 
